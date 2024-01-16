@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.cyan,
       ),
-      home: Screensplash(),
+      home: const Screensplash(),
     );
   }
 }
