@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:loginapp/screens/splash.dart';
 
 
+// ignore: constant_identifier_names
 const save_key_name ='userloggedin';
 
 void main() {
