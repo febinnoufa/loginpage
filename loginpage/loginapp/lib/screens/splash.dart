@@ -25,8 +25,9 @@ checkuserloggedin();
       body: Center(
         child: Image.asset('assets/images/Screenshot_2023-09-13_115200-removebg-preview.png',height: 250,),
       ),
-    );
+    );    
   }
+      
  
   Future<void> gotologin() async{
    await Future.delayed(Duration(seconds: 3));
