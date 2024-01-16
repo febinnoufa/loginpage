@@ -4,7 +4,7 @@ import 'package:loginapp/screens/home.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Screenlogin  extends StatefulWidget {
-   Screenlogin({super.key});
+   const Screenlogin({super.key});
 
   @override
   State<Screenlogin> createState() => _ScreenloginState();

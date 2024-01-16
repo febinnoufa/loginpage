@@ -45,7 +45,8 @@ checkuserloggedin();
      }else{
 
 
-      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (ctx1)=> ScreenHome()));
+      // ignore: use_build_context_synchronously
+      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (ctx1)=> const ScreenHome()));
      }
     }
 }
