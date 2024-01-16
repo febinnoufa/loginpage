@@ -39,10 +39,12 @@ checkuserloggedin();
   Future<void> checkuserloggedin() async{
    final _sharedprefs =await SharedPreferences.getInstance();
 
- final _userloggedin= _sharedprefs.getBool(save_key_name);
-     if(_userloggedin==null||_userloggedin==false){
+ final userloggedin= _sharedprefs.getBool(save_key_name);
+     if(userloggedin==null||userloggedin==false){
          gotologin();      
      }else{
+
+
       Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (ctx1)=> ScreenHome()));
      }
     }
